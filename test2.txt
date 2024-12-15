@@ -1,0 +1,11 @@
+PROGRAMME Test
+VAR{
+// commentaire
+INTEGER L, N_1, m, Tab[9], n,i,j, Nombre ;
+INTEGER L;
+// commentaire
+}
+BEGIN
+  writeIn(k);
+
+END.

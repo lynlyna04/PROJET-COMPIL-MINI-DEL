@@ -1,0 +1,37 @@
+PROGRAMME ACADC
+VAR{
+// commentaire
+INTEGER L, N_1, m, Tab[9], n,i,j, Nombre ;
+REAL Mi, hi, Ti, Si;
+CONST Idf_1 = 32765 ;
+CONST val = -9 ;
+INTEGER Tab2[-2] ;
+REAL Tab3[0] ;
+// commentaire
+}
+BEGIN
+/* commentaire */
+IF((Aa > L) && (!N_1 )){  Mi=L+2.6;
+		WHILE(i <n) { i=i+2;
+		writeln('la valeur de i :');
+					 }
+      } ELSE{  val=0;
+               FOR(j : 1:5 :Idf_1) {
+					j=j+3;
+					}
+      }
+
+/* saisie de 
+plusieurs valeurs */
+
+WHILE (i <n) { i=i+2;
+	writeln('Entrez un nombre :');
+	readln(Nombre);
+	writeln('Le nombre est :' Nombre '. ' );
+
+	FOR (i : 0: 2 :n) {
+	i=i+2;
+	}
+}
+
+END.
