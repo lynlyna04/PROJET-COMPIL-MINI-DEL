@@ -1,11 +1,50 @@
-PROGRAMME Test
-VAR{
-// commentaire
-INTEGER L, N_1, m, Tab[9], n,i,j, Nombre ;
-INTEGER L;
-// commentaire
+PROGRAMME Test 
+VAR {
+    INTEGER A, B, C;
+    INTEGER A;
+    REAL X, Y, Z;
+    CONST Pi = 3.14;
+    CONST P = 3;
+    INTEGER Arr[10];
 }
-BEGIN
-  writeIn(k);
 
+BEGIN
+    /* Affectation simple*/
+    A = 10; 
+    B = (A + 5);
+    Z = (X - Pi) / 2.5;
+
+    // Lecture et écriture
+    readIn(X);
+    writeIn(B);
+
+    //Condition imbriquée avec opérateurs logiques et comparatifs 
+    if (X > 5 && Y <= 10) {
+        C = A + B;
+        if (C == 20) {
+            writeIn(C);
+        }
+    } else {
+        Z = Z - 1.0;
+    }
+
+    // Boucle FOR imbriquée
+    for (I : 0 : 1 : n) {
+        for (J : 0 : 2 : 10) {
+            Arr[I] = I * J;
+            writeIn(Arr[I]);
+        }
+    }
+
+    // Boucle WHILE avec expressions
+    while (Z > 0) {
+        Z = Z - 0.5;
+        if (Z < 5) {
+            writeIn('Le nombre est :' X '.');
+        }
+    }
+
+    // Tableau et constantes
+    Arr[0] = (Pi + 2) * A;
+    writeIn(V);
 END.
